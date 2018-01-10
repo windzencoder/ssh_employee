@@ -13,10 +13,10 @@
 </head>
 
 <frameset rows="90,*" >
-	<frame  src="${pageContext.request.contextPath}/frame/top.jsp" scrolling="no" >
+	<frame  src="${pageContext.request.contextPath}/frame/top.jsp" scrolling="no"  noresize="noresize">
    <frameset id="main" cols="170,*">
       <%-- <frame src="${pageContext.request.contextPath}/frame/left1.jsp" scrolling="no">  --%>
-      <frame src="${pageContext.request.contextPath}/frame/left.jsp" scrolling="no"> 
+      <frame src="${pageContext.request.contextPath}/frame/left.jsp" scrolling="no" noresize="noresize"> 
       <%-- <frame src="${pageContext.request.contextPath}/frame/left2.jsp" scrolling="no">  --%>
       
       <frame name="right" src="${pageContext.request.contextPath}/frame/right.jsp" scrolling="no">

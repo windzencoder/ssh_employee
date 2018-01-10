@@ -6,8 +6,13 @@
 	
 	<display-name>ssh_employee</display-name>
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>login.jsp</welcome-file>
 	</welcome-file-list>
+	
+	<!-- 出错页面 -->
+	<error-page>
+        <location>/error.jsp</location>
+    </error-page>
 
 	<!-- 过滤器 防止懒加载 -->
 <!-- 	<filter>

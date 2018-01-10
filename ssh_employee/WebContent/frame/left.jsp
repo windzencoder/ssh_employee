@@ -14,8 +14,8 @@
 
 <body bgColor=#DDF0FB leftMargin=0 topMargin=0 marginwidth="0"
 	marginheight="0">
-	<table width="90%" border="0" cellspacing="1" cellpadding="2"
-		align="center">
+	<table width="90%" border="0" cellspacing="1" cellpadding="2" align="center">
+		<!-- 树形结构 -->
 		<div class="dtree">
 			<script type="text/javascript">
 				d = new dTree('d');
